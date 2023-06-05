@@ -16,6 +16,7 @@ public class BasePage extends Driver {
     }
 
     public void openSantanderPage(){
+        getDriver().manage().window().maximize();
         getDriver().get("https://www.santanderbank.com/");
     }
 
